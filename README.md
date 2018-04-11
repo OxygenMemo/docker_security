@@ -44,6 +44,9 @@
    ### database comfig
     หากต้องการเปรี่ยนชื่อ database สามารถแก้ได้ในไฟร์ `docker-compose.yml` ได้เลยตรงที่
     `MYSQL_DATABASE=myapp` และคุณสามารถแก้ใข root password ได้ที่ บรรทัด `MYSQL_ROOTPASSWORD=p@ssw0rd`
+    
+# TIP 
+    หากใช้กับ framework เช่น codeigniter ต้อง set database host เป็น db (ชื่อ contrainer)
 
   
 
